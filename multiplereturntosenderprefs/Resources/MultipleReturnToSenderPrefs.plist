@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>footerText</key>
+			<string>The number of times you need to press the return key, the added empty lines will be removed</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Number of return key presses</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.mohammadag.multiplereturntosender</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.mohammadag.multiplereturntosender/preferences_changed</string>
+			<key>key</key>
+			<string>return_count</string>
+			<key>default</key>
+			<integer>3</integer>
+			<key>label</key>
+			<string>Return press count</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Multiple ReturnToSender</string>
+</dict>
+</plist>

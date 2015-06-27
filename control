@@ -1,0 +1,10 @@
+Package: com.mohammadag.multiplereturntosender
+Name: MultipleReturnToSender
+Depends: mobilesubstrate
+Conflicts: com.skyfrost.returntosender
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Use multiple return key presses to send quick replies
+Maintainer: Mohammad Abu-Garbeyyeh
+Author: Mohammad Abu-Garbeyyeh
+Section: Tweaks
